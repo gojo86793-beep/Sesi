@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Name</key>
+    <string>AIMASSIST PRO</string>
+    <key>BasedOn</key>
+    <string>Some</string>
+    
+    <!-- ការកំណត់ Touch Speed ក្នុងកូដ -->
+    <key>TouchResponseBoost</key>
+    <dict>
+        <key>TouchSpeed</key>
+        <string>120</string>
+        <key>HoldDuration</key>
+        <string>0.02s</string>
+        <key>RefinedGlidingCursor</key>
+        <true/>
+    </dict>
+
+    <!-- បញ្ជី Bundle IDs សម្រាប់ Free Fire & Free Fire Max -->
+    <key>CustomReplacements</key>
+    <array>
+        <dict>
+            <key>Replacement</key>
+            <string>AIMLOCK VIP {"Bundle":"Com.Dts.Freefiremax"}</string>
+            <key>Substitute</key>
+            <string>🎯</string>
+        </dict>
+        <dict>
+            <key>Replacement</key>
+            <string>AIMLOCK VIP {"Bundle":"Com.Dts.Freefireth"}</string>
+            <key>Substitute</key>
+            <string>⚡</string>
+        </dict>
+        <dict>
+            <key>Replacement</key>
+            <string>TOUCH BOOST {"Bundle":"Com.Dts.Freefiremax"}</string>
+            <key>Substitute</key>
+            <string>🔥</string>
+        </dict>
+    </array>
+</dict>
+</plist>
